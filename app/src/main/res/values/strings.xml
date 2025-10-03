@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TecnoSchool App</string>
+    <string name="btn_windows">Windows 11</string>
+    <string name="name_windows">Windows 11</string>
+    <string name="btn_office">Office 2016</string>
+<string name="name_Atajos_de_teclado">Atajos de tecaldo</string>
+
+</resources>
