@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -11,6 +13,165 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TecnoSchoolApp">
+        <activity
+            android:name=".Validacion_proteccion_datosE"
+            android:exported="false" />
+        <activity
+            android:name=".Funciones_BD_estadisticasE"
+            android:exported="false" />
+        <activity
+            android:name=".Funciones_logicas_combinadasE"
+            android:exported="false" />
+        <activity
+            android:name=".Funciones_Busqueda_ReferenciaE"
+            android:exported="false" />
+        <activity
+            android:name=".Funciones_AvanzadasE"
+            android:exported="false" />
+        <activity
+            android:name=".Analisis_estadistico_financieroE"
+            android:exported="false" />
+        <activity
+            android:name=".Analisis_hipotesisE"
+            android:exported="false" />
+        <activity
+            android:name=".Graficos_visualizacionesE"
+            android:exported="false" />
+        <activity
+            android:name=".Tablas_DinamicasE"
+            android:exported="false" />
+        <activity
+            android:name=".Analisis_Datos_Excel"
+            android:exported="false" />
+        <activity
+            android:name=".Ordenar_FiltrarE"
+            android:exported="false" />
+        <activity
+            android:name=".Formato_CeldasE"
+            android:exported="false" />
+        <activity
+            android:name=".Funciones_TextoE"
+            android:exported="false" />
+        <activity
+            android:name=".Funciones_Basicas_Excel"
+            android:exported="false" />
+        <activity
+            android:name=".Funciones_Esenciales"
+            android:exported="false" />
+        <activity
+            android:name=".Uso_Comun_Excel"
+            android:exported="false" />
+        <activity
+            android:name=".Caracteristicas_PrincipalesE"
+            android:exported="false" />
+        <activity
+            android:name=".Introduccion_Excel"
+            android:exported="false" />
+        <activity
+            android:name=".Menu_Excel"
+            android:exported="false" />
+        <activity
+            android:name=".Transiciones_AnimacionesP"
+            android:exported="false" />
+        <activity
+            android:name=".Funciones_AvanzadasP"
+            android:exported="false" />
+        <activity
+            android:name=".Presentacion_IterativaP"
+            android:exported="false" />
+        <activity
+            android:name=".Contenido_MultimediaP"
+            android:exported="false" />
+        <activity
+            android:name=".Diseno_DiapositivasP"
+            android:exported="false" />
+        <activity
+            android:name=".Barra_HerramientasP"
+            android:exported="false" />
+        <activity
+            android:name=".Introduccion_PowerP"
+            android:exported="false" />
+        <activity
+            android:name=".Menu_Power_Point"
+            android:exported="false" />
+        <activity
+            android:name=".ImprimirW"
+            android:exported="false" />
+        <activity
+            android:name=".Ortografia_Comentarios"
+            android:exported="false" />
+        <activity
+            android:name=".Estilos_PlantillasW"
+            android:exported="false" />
+        <activity
+            android:name=".Insertar_ImagenesW"
+            android:exported="false" />
+        <activity
+            android:name=".Insertar_Imagenes_Graficas"
+            android:exported="false" />
+        <activity
+            android:name=".Pies_PaginaW"
+            android:exported="false" />
+        <activity
+            android:name=".Listas_NumeradasW"
+            android:exported="false" />
+        <activity
+            android:name=".Formato_Texto"
+            android:exported="false" />
+        <activity
+            android:name=".Crear_GuardarArc"
+            android:exported="false" />
+        <activity
+            android:name=".Barra_Herramientas"
+            android:exported="false" />
+        <activity
+            android:name=".Introduccion_Word"
+            android:exported="false" />
+        <activity
+            android:name=".Menu_Pawer_Point"
+            android:exported="false" />
+        <activity
+            android:name=".Menu_Word"
+            android:exported="false" />
+        <activity
+            android:name=".Office"
+            android:exported="false" />
+        <activity
+            android:name=".Otros_Comandos"
+            android:exported="false" />
+        <activity
+            android:name=".Funciones_Especiales"
+            android:exported="false" />
+        <activity
+            android:name=".Navegadores"
+            android:exported="false" />
+        <activity
+            android:name=".Navegacion"
+            android:exported="false" />
+        <activity
+            android:name=".Explorador_Archivos"
+            android:exported="false" />
+        <activity
+            android:name=".Administracion_sistema"
+            android:exported="false" />
+        <activity
+            android:name=".Atajo_Windows"
+            android:exported="false" />
+        <activity
+            android:name=".Administracion_ventas"
+            android:exported="false" />
+        <activity
+            android:name=".Atalos_generales"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".Atajos_de_teclado"
             android:exported="false" />
@@ -23,7 +184,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>

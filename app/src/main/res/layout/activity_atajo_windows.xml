@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Atajo_Windows"
+    android:background="@drawable/crema">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/name_Atajos_tecla_windows"
+        android:textColor="@color/Dark_wine"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="335dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="92dp"
+        android:text="@string/name_exploran"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:justificationMode="inter_word"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="107dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="teddy.json"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_loop="true"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:backgroundTint="@color/Deep_cocoa"
+        android:text="@string/name_Regresar"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.966" />
+
+
+    <FrameLayout
+        android:id="@+id/card_atajo1"
+        android:layout_width="101dp"
+        android:layout_height="54dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363">
+
+
+        <LinearLayout
+            android:id="@+id/back_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Dark_wine"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="37dp"
+                android:gravity="center"
+                android:text="name_WINn"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btnAtajo"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#707731"
+                android:text="Ver atajo"
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/front_card"
+            android:layout_width="93dp"
+            android:layout_height="54dp"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="Abrir menú inicio"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/card_atajo2"
+        android:layout_width="103dp"
+        android:layout_height="59dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.362">
+
+        <LinearLayout
+            android:id="@+id/tarjeta_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Dark_wine"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="37dp"
+                android:gravity="center"
+                android:text="Win + S"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btnAtajoW"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#707731"
+                android:text="Ver atajo"
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tar2_card"
+            android:layout_width="93dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_orange_dark"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="37dp"
+                android:gravity="center"
+                android:text="@string/name_Buscar"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/card_atajo3"
+        android:layout_width="102dp"
+        android:layout_height="52dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.437">
+
+        <LinearLayout
+            android:id="@+id/Abrir"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Dark_wine"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="37dp"
+                android:gravity="center"
+                android:text="Win + I"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btnAtajoC"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#707731"
+                android:text="Ver atajo"
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tar3_card"
+            android:layout_width="92dp"
+            android:layout_height="49dp"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="37dp"
+                android:gravity="center"
+                android:text="Abrir configuracion"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/card_atajo4"
+        android:layout_width="104dp"
+        android:layout_height="56dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443">
+
+        <LinearLayout
+            android:id="@+id/Explorador"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Dark_wine"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="37dp"
+                android:gravity="center"
+                android:text="Win + E"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btnAtajoE"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#707731"
+                android:text="Ver atajo"
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tar4_card"
+            android:layout_width="91dp"
+            android:layout_height="59dp"
+            android:background="@android:color/holo_orange_dark"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="84dp"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:text="Abrir explorador de archivos"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/card_atajo5"
+        android:layout_width="104dp"
+        android:layout_height="56dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.516">
+
+        <LinearLayout
+            android:id="@+id/HistorialP"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Dark_wine"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="37dp"
+                android:gravity="center"
+                android:text="Win + V"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btnAtajoH"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#707731"
+                android:text="Ver atajo"
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tar5_card"
+            android:layout_width="91dp"
+            android:layout_height="59dp"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="84dp"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:text="@string/name_Abrir"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/card_atajo6"
+        android:layout_width="104dp"
+        android:layout_height="56dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.516">
+
+        <LinearLayout
+            android:id="@+id/Bloquear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Dark_wine"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="37dp"
+                android:gravity="center"
+                android:text="Win + L"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btnAtajoB"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#707731"
+                android:text="Ver atajo"
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tar6_card"
+            android:layout_width="91dp"
+            android:layout_height="59dp"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="84dp"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:text="@string/name_Bloquear"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/card_atajo8"
+        android:layout_width="104dp"
+        android:layout_height="56dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.437">
+
+        <LinearLayout
+            android:id="@+id/Minimizar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Dark_wine"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="37dp"
+                android:gravity="center"
+                android:text="Win + M"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btnAtajoV"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#707731"
+                android:text="Ver atajo"
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tar8_card"
+            android:layout_width="91dp"
+            android:layout_height="59dp"
+            android:background="@android:color/holo_orange_dark"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="84dp"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:text="@string/name_Minimizar"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/card_atajo9"
+        android:layout_width="104dp"
+        android:layout_height="56dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51">
+
+        <LinearLayout
+            android:id="@+id/Restaurar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Dark_wine"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="37dp"
+                android:gravity="center"
+                android:text="Win + Shift + M"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btnAtajoMi"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#707731"
+                android:text="Ver atajo"
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tar9_card"
+            android:layout_width="91dp"
+            android:layout_height="59dp"
+            android:background="@android:color/holo_orange_dark"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="84dp"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:text="@string/name_Restaurar"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/card_atajo10"
+        android:layout_width="104dp"
+        android:layout_height="56dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.588">
+
+        <LinearLayout
+            android:id="@+id/Asistente"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Dark_wine"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="37dp"
+                android:gravity="center"
+                android:text="Win + C"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btnAtajoA"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#707731"
+                android:text="Ver atajo"
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tar10_card"
+            android:layout_width="91dp"
+            android:layout_height="59dp"
+            android:background="@android:color/holo_orange_dark"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="84dp"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:text="@string/name_Asistente"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/card_atajo11"
+        android:layout_width="104dp"
+        android:layout_height="56dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.588">
+
+        <LinearLayout
+            android:id="@+id/Menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Dark_wine"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="37dp"
+                android:gravity="center"
+                android:text="Win + X"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btnAtajoi"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#707731"
+                android:text="Ver atajo"
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tar12_card"
+            android:layout_width="91dp"
+            android:layout_height="59dp"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="84dp"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:text="@string/name_Menu"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/card_atajo13"
+        android:layout_width="104dp"
+        android:layout_height="56dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.588">
+
+        <LinearLayout
+            android:id="@+id/Ejecucion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Dark_wine"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="37dp"
+                android:gravity="center"
+                android:text="Win + R"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btnAtajoEj"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#707731"
+                android:text="Ver atajo"
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tar13_card"
+            android:layout_width="91dp"
+            android:layout_height="59dp"
+            android:background="@android:color/holo_orange_dark"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="84dp"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:text="@string/name_Ejecucion"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/card_atajo7"
+        android:layout_width="104dp"
+        android:layout_height="56dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363">
+
+        <LinearLayout
+            android:id="@+id/Escritorio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Dark_wine"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="37dp"
+                android:gravity="center"
+                android:text="Win + D"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btnAtajoM"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#707731"
+                android:text="Ver atajo"
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tar7_card"
+            android:layout_width="91dp"
+            android:layout_height="59dp"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="84dp"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:text="@string/name_Mostrar"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.718"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.861" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="391dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.629" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

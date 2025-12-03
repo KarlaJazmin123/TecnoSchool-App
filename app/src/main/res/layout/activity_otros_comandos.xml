@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Otros_Comandos"
+    android:background="@drawable/crema">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="253dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="68dp"
+        android:text="@string/name_comandos"
+        android:textColor="@color/Dark_wine"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="362dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="12dp"
+        android:justificationMode="inter_word"
+        android:text="@string/name_util"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.162" />
+
+    <FrameLayout
+        android:id="@+id/card_atajo"
+        android:layout_width="160dp"
+        android:layout_height="53dp"
+        android:layout_margin="8dp"
+        android:radius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.298">
+
+
+        <LinearLayout
+            android:id="@+id/captura"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Dark_wine"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:radius="25dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="37dp"
+                android:gravity="center"
+                android:text="@string/name_cap"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnAtajoo"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#707731"
+                android:radius="25dp"
+                android:text="@string/name_Ver_Atajo"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tar1_card"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:background="#102073"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:radius="25dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="41dp"
+                android:gravity="center"
+                android:text="@string/name_captura"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/card_atajo2"
+        android:layout_width="160dp"
+        android:layout_height="53dp"
+        android:layout_margin="8dp"
+        android:radius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.302">
+
+
+        <LinearLayout
+            android:id="@+id/pantalla"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Dark_wine"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:radius="25dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="37dp"
+                android:gravity="center"
+                android:text="@string/name_copiar"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnAtajo2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#707731"
+                android:radius="25dp"
+                android:text="@string/name_Ver_Atajo"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tar2_card"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:background="#0C5A53"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:radius="25dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:text="@string/name_papeles"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/card_atajo3"
+        android:layout_width="160dp"
+        android:layout_height="53dp"
+        android:layout_margin="8dp"
+        android:radius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.373">
+
+
+        <LinearLayout
+            android:id="@+id/guardar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Dark_wine"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:radius="25dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="37dp"
+                android:gravity="center"
+                android:text="@string/name_directo"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnAtajo3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#707731"
+                android:radius="25dp"
+                android:text="@string/name_Ver_Atajo"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tar3_card"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:background="#0C5A53"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:radius="25dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:text="@string/name_guardar"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/card_atajo4"
+        android:layout_width="160dp"
+        android:layout_height="53dp"
+        android:layout_margin="8dp"
+        android:radius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.376">
+
+
+        <LinearLayout
+            android:id="@+id/mostrar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Dark_wine"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:radius="25dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="37dp"
+                android:gravity="center"
+                android:text="@string/name_info"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnAtajo4"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#707731"
+                android:radius="25dp"
+                android:text="@string/name_Ver_Atajo"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tar4_card"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:background="#102073"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:radius="25dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="@string/name_mostrarr"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/card_atajo5"
+        android:layout_width="160dp"
+        android:layout_height="53dp"
+        android:layout_margin="8dp"
+        android:radius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.447">
+
+
+        <LinearLayout
+            android:id="@+id/rotacion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Dark_wine"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:radius="25dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="37dp"
+                android:gravity="center"
+                android:text="@string/name_bloquear"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnAtajo5"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#707731"
+                android:radius="25dp"
+                android:text="@string/name_Ver_Atajo"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tar5_card"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:background="#102073"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:radius="25dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="@string/name_rotacion"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/card_atajo6"
+        android:layout_width="160dp"
+        android:layout_height="53dp"
+        android:layout_margin="8dp"
+        android:radius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.448">
+
+
+        <LinearLayout
+            android:id="@+id/rotar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Dark_wine"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:radius="25dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="37dp"
+                android:gravity="center"
+                android:text="@string/name_pann"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnAtajo6"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#707731"
+                android:radius="25dp"
+                android:text="@string/name_Ver_Atajo"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tar6_card"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:background="#0C5A53"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:radius="25dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="@string/name_rotar"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/card_atajo7"
+        android:layout_width="160dp"
+        android:layout_height="53dp"
+        android:layout_margin="8dp"
+        android:radius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.525">
+
+
+        <LinearLayout
+            android:id="@+id/sesion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Dark_wine"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:radius="25dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="37dp"
+                android:gravity="center"
+                android:text="@string/name_salir"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnAtajo7"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#707731"
+                android:radius="25dp"
+                android:text="@string/name_Ver_Atajo"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tar7_card"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:background="#0C5A53"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:radius="25dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="@string/name_sesion"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/card_atajo8"
+        android:layout_width="160dp"
+        android:layout_height="53dp"
+        android:layout_margin="8dp"
+        android:radius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.524">
+
+
+        <LinearLayout
+            android:id="@+id/seguridad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Dark_wine"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:radius="25dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:gravity="center"
+                android:text="@string/name_reiniciar"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnAtajo8"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#707731"
+                android:radius="25dp"
+                android:text="@string/name_Ver_Atajo"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tar8_card"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:background="#102073"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:radius="25dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:text="@string/name_seguridad"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="268dp"
+        android:text="@string/name_Regresar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.979"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/Deep_cocoa"/>
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.847" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="391dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.579" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

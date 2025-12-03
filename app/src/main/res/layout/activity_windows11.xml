@@ -6,33 +6,174 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Windows11Activity"
-    android:background="@color/Blue_gray">
+    android:background="@drawable/crema">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/name_windows"
+        android:text="@string/name_Atajos_de_teclado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.088"
-        android:textSize="28sp"
-        android:textColor="@android:color/white"/>
+        android:textSize="35sp"
+        android:textStyle="italic"
+        android:textColor="@color/Dark_wine"/>
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="145dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="224dp"
-        android:text="@string/name_Atajos_de_teclado"
+        android:layout_width="151dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="160dp"
+        android:backgroundTint="@color/Deep_cocoa"
+        android:text="@string/name_Introduccion_a_Windows11"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttGenral"
+        android:layout_width="154dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="196dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/name_Atajos_de_teclado_General"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/butonWindows"
+        android:layout_width="157dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="288dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/name_Atajos_tecla_windows"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/butonAdm"
+        android:layout_width="157dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="324dp"
+        android:backgroundTint="@color/Deep_cocoa"
+        android:text="@string/name_Administración_ventanas"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="157dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="420dp"
+        android:backgroundTint="@color/Deep_cocoa"
+        android:text="@string/name_Administración_sistema"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="157dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="444dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/name_Explorador_de_archivos"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.864"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <Button
+        android:id="@+id/btonNave"
+        android:layout_width="157dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="564dp"
         android:backgroundTint="@color/black"
-       />
+        android:text="@string/name_Navegación_navegadores_web"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="157dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="564dp"
+        android:backgroundTint="@color/Deep_cocoa"
+        android:text="@string/name_Accesibilidad_funciones_especiales"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="164dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="672dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/name_Otros_comandos_útiles"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="Oso.json"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_loop="true"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="252dp"
+        android:backgroundTint="@color/Deep_cocoa"
+        android:text="@string/name_Regresar"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

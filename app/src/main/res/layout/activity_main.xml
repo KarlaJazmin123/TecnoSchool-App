@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    android:id="@+id/main"
+<LinearLayout android:id="@+id/main"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
     android:padding="24dp"
-    android:background="@color/Pastel_blue_violet"
-    
-    >
+    android:background="@drawable/crema"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
         android:id="@+id/tvTitulo"
@@ -28,16 +27,35 @@
         android:layout_marginTop="20dp"
         android:text="@string/btn_windows"
         android:backgroundTint="@color/black"
+        android:textColor="@color/white"
         />
 
     <Button
-        android:id="@+id/btnAndroid"
+        android:id="@+id/btnOffice"
         android:layout_width="224dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="@string/btn_office"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/Deep_cocoa"
+        android:textColor="@color/white"
         />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="cat.json"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_loop="true"
+        android:layout_marginTop="15sp"
+     />
 
 </LinearLayout>
 

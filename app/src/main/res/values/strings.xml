@@ -3,6 +3,529 @@
     <string name="btn_windows">Windows 11</string>
     <string name="name_windows">Windows 11</string>
     <string name="btn_office">Office 2016</string>
-<string name="name_Atajos_de_teclado">Atajos de tecaldo</string>
+    <string name="name_Atajos_de_teclado_General">Atajos de teclado general</string>
+    <string name="name_Atajos_de_teclado">Atajos de teclado </string>
+    <string name="name_Introduccion_a_Windows11">Introduccion a Windows 11</string>
+    <string name="name_Bienvenido">Bienvenido</string>
+    <string name="name_Atajos_tecla_windows">Atajos con la tecla Windows</string>
+    <string name="name_Administración_ventanas">Administración de ventanas y multitarea</string>
+    <string name="name_Administración_sistema">Administración del sistema y herramientas</string>
+    <string name="name_Explorador_de_archivos">Explorador de archivos</string>
+    <string name="name_Navegación_navegadores_web">Navegación en web(Edge, Chrome, Firefox)</string>
+    <string name="name_Accesibilidad_funciones_especiales">Accesibilidad y funciones especiales</string>
+    <string name="name_Otros_comandos_útiles">Otros comandos útiles</string>
+    <string name="name_Atajos_Windows">Atajos con la tecla Windows</string>
+    <string name="name_Regresar">Regresar</string>
+    <string name="name_Administracion_de_ventas">Administración de ventas</string>
+    <string name="name_Buscar">Buscar en Windows</string>
+    <string name="name_Abrir">Abrir historial de portapapeles</string>
+    <string name="name_Bloquear">Bloquear el equipo</string>
+    <string name="name_Mostrar">Mostrar escritorio</string>
+    <string name="name_Minimizar">Minimizar todas las ventanas</string>
+    <string name="name_Restaurar">Restaurar ventanas minimizadas</string>
+    <string name="name_Asistente">Abrir el asistente de voz</string>
+    <string name="name_Menu">Abrir menu de inicio</string>
+    <string name="name_Ejecucion">Abrir ejecucion de comandos</string>
+    <string name="name_Control">Ctrl + C</string>
+    <string name="name_Ver_Atajo">Ver Atajo</string>
+    <string name="name_Copiar">Copiar</string>
+    <string name="name_Pega">Ctrl + V</string>
+    <string name="name_Pegar">Pegar</string>
+    <string name="name_Ctr">Ctrl + X</string>
+    <string name="name_Cortar">Cortar</string>
+    <string name="name_C">Ctrl + A</string>
+    <string name="name_Seleccionar">Seleccionar todo</string>
+    <string name="name_Deshacer">Deshacer</string>
+
+
+    <string name="name_Alt">Alt + Tab</string>
+    <string name="name_App">Cambiar entre aplicaciones abiertas</string>
+    <string name="name_ALT">Alt + Shift + Tab</string>
+    <string name="name_win">Win + Z</string>
+    <string name="name_men">Abrir menú de disposición de ventanas </string>
+    <string name="name_alt">Alt + F4</string>
+    <string name="name_cerrar">Cerrar la ventana actual</string>
+    <string name="name_ventanas">Cambiar entre ventanas en orden inverso</string>
+    <string name="name_programa">Cambiar entre ventanas del mismo programa</string>
+    <string name="name_ve">Ctrl + Alt + Tab</string>
+    <string name="name_virtual">Abrir nuevo escritorio virtual</string>
+    <string name="name_d">Win + Ctrl + D</string>
+    <string name="name_escritorios">Cambiar entre escritorios virtuales</string>
+    <string name="name_flecha">Win+Ctrl+Flecha izquierda/derecha</string>
+    <string name="name_actual">Cerrar escritorio virtual actual</string>
+    <string name="name_F4">Win + Ctrl + F4</string>
+    <string name="name_admi">Administración del sistema y herramientas</string>
+    <string name="name_tareas">Abrir Administrador de tareas</string>
+    <string name="name_shi">Ctrl + Shift + Esc</string>
+    <string name="name_eje">Win + R</string>
+    <string name="name_ejecutar">Abrir cuadro “Ejecutar”</string>
+    <string name="name_conf">Win + I</string>
+    <string name="name_configuracion">Abrir configuración del sistema</string>
+    <string name="name_Win">Win + R, luego escribe control</string>
+    <string name="name_control">Abrir Panel de control (desde Ejecutar)</string>
+    <string name="name_Winn">Win + R, luego escribe cmd</string>
+    <string name="name_simbolo">Abrir símbolo del sistema (CMD)</string>
+    <string name="name_termianl">Win + X, luego selecciona Terminal</string>
+    <string name="name_Terminal">Abrir terminal de Windows</string>
+    <string name="name_disp">Win + X, luego M</string>
+    <string name="name_abrir">Abrir el Administrador de dispositivos</string>
+    <string name="name_disco">Win + X, luego K</string>
+    <string name="name_discos">Abrir el Administrador de discos</string>
+    <string name="name_sis">Win + Pause / Break</string>
+    <string name="name_sistema">Abrir Configuración del sistema avanzada</string>
+
+
+    <string name="name_explorador">Explorador de archivos</string>
+    <string name="name_ctl">Ctrl + N</string>
+    <string name="name_ventana">Nueva ventana</string>
+    <string name="name_T">Ctrl + T</string>
+    <string name="name_pestaña">Nueva pestaña (Windows 11 22H2+)</string>
+    <string name="name_Ctl">Ctrl + Tab o Ctrl + Shift + Tab</string>
+    <string name="name_cambiar">Cambiar entre pestañas</string>
+    <string name="name_N">Ctrl + Shift + N</string>
+    <string name="name_crear">Crear nueva carpeta</string>
+    <string name="name_supr">Supr</string>
+    <string name="name_eliminar">Eliminar archivo / carpeta</string>
+    <string name="name_papelera">Eliminar sin pasar por la papelera</string>
+    <string name="name_eli">Shift + Supr</string>
+    <string name="name_elemento">Propiedades del elemento</string>
+    <string name="name_propi">Alt + Enter</string>
+    <string name="name_f">F2</string>
+    <string name="name_renom">Renombrar archivo / carpeta</string>
+    <string name="name_selec">Alt + D</string>
+    <string name="name_barra">Seleccionar barra de direcciones</string>
+    <string name="name_retro">Alt + Flecha izquierda o Backspace</string>
+    <string name="name_retroceder">Retroceder</string>
+    <string name="name_derecha">Alt + Flecha derecha</string>
+    <string name="name_avanzar">Avanzar</string>
+    <string name="name_subir">Alt + Flecha arriba</string>
+    <string name="name_nivel">Subir un nivel</string>
+    <string name="name_F">F5</string>
+    <string name="name_actualizar">Actualizar carpeta</string>
+    <string name="name_p">Alt + Shift + P</string>
+    <string name="name_mostrar">Mostrar/ocultar panel de navegación</string>
+    <string name="name_Cerra">Ctrl + W</string>
+    <string name="name_cerrarr">Cerrar pestaña</string>
+
+
+    <string name="name_navegacion">Navegación en navegadores web (Edge, Chrome, Firefox)</string>
+    <string name="name_navegador">Tu experiencia de navegación en Internet con atajos que te permiten abrir nuevas pestañas, cerrar ventanas,
+        recargar páginas y moverte entre los web de forma más rápida y cómoda</string>
+    <string name="name_ultima">Ctrl + Shift + T</string>
+    <string name="name_reabrir">Reabrir última pestaña cerrada</string>
+    <string name="name_inco">Ctrl + Shift + N</string>
+    <string name="name_privada">Abrir ventana de incógnito / privada</string>
+    <string name="name_numero">Ctrl + Tab o Ctrl + número (1–8)</string>
+    <string name="name_pestañass">Cambiar entre pestañas</string>
+    <string name="name_direcc">Alt + D o Ctrl + L</string>
+    <string name="name_barraa">Ir a la barra de direcciones</string>
+    <string name="name_F5">F5</string>
+    <string name="name_actualizarr">Actualizar pagina</string>
+    <string name="name_5">F5</string>
+    <string name="name_forzar">Forzar recarga completa (sin caché)</string>
+    <string name="name_ff">Ctrl + F</string>
+    <string name="name_pagina">Buscar en la página</string>
+    <string name="name_J">Ctrl + J</string>
+    <string name="name_descargas">Abrir descargas</string>
+    <string name="name_z">Ctrl + + / Ctrl + -</string>
+    <string name="name_zoom">Zoom + / Zoom -</string>
+
+
+    <string name="name_acceso">Accesibilidad y funciones especiales</string>
+    <string name="name_especial">Exploran los atajos diseñados para la usabilidad del sistema para todos los usuarios. Esta sección cubre comandos
+        que activan funciones de accesibilidad y herramientas especiales para una interacción más personalizada.</string>
+    <string name="name_lup">Win + +</string>
+    <string name="name_lupa">Abrir lupa</string>
+    <string name="name_CERRARR">Cerrar lupa</string>
+    <string name="name_Cerrar">Win + Esc</string>
+    <string name="name_activar">Win + Ctrl + Enter</string>
+    <string name="name_narrador">Activar narrador</string>
+    <string name="name_teclado">Activar teclado en pantalla</string>
+    <string name="name_pantalla">Win + Ctrl + O</string>
+    <string name="name_contraste">Alt + Shift + Print Screen</string>
+    <string name="name_alto">Activar contraste alto	</string>
+    <string name="name_ACCES">Win + U</string>
+    <string name="name_opciones">Abrir opciones de accesibilidad</string>
+    <string name="name_no">Win + N luego clic en “Asistente de concentración”</string>
+    <string name="name_molestar">Activar modo de enfoque / no molestar</string>
+    <string name="name_vista">Ctrl + Alt + I / Ctrl + Alt + F (según vista)</string>
+    <string name="name_ampliar">Ampliar pantalla (lupa)</string>
+
+
+    <string name="name_comandos">Otros comandos útiles y de emergencia</string>
+    <string name="name_util">Aprende atajos esenciales para situaciones críticas o para realizar tareas rápidas específicas. Desde capturas de pantalla hasta la apertura del administrador de tareas.
+        Estos comandos son vitales para cualquier usuario.</string>
+    <string name="name_cap">PrtScn</string>
+    <string name="name_captura">Captura de pantalla completa</string>
+    <string name="name_copiar">Win + Shift + S</string>
+    <string name="name_papeles">Captura de pantalla y copiar al portapapeles</string>
+    <string name="name_directo">Win + PrtScn</string>
+    <string name="name_guardar">Guardar captura directamente</string>
+    <string name="name_info">Win + Pause / Break</string>
+    <string name="name_mostrarr">Mostrar información del sistema</string>
+    <string name="name_bloquear">Ctrl + Alt + Flecha arriba</string>
+    <string name="name_rotacion">Bloquear rotación de pantalla</string>
+    <string name="name_pann">Ctrl + Alt + Flechas</string>
+    <string name="name_rotar">Rotar pantalla</string>
+    <string name="name_salir">Ctrl + Alt + Supr</string>
+    <string name="name_sesion">Salir de sesión</string>
+    <string name="name_reiniciar">Ctrl + Alt + Supr, luego ícono de energía</string>
+    <string name="name_seguridad">Apagar / reiniciar desde pantalla de seguridad</string>
+
+
+    <string name="name_Word">Word</string>
+    <string name="name_Excel">Excel</string>
+    <string name="name_Power_Point">Power Point</string>
+    <string name="name_Offi">Office 2016</string>
+
+    <string name="name_Intro">Introducción  a Word</string>
+    <string name="name_herra">Barra de herramientas</string>
+    <string name="name_archivo">Crear y guardar archivo</string>
+    <string name="name_texto">Formato de texto y párrafo</string>
+    <string name="name_listas">Listas numeradas y viñetas</string>
+    <string name="name_pies">Pies de página y numeración</string>
+    <string name="name_insertar">Insertar imágenes y gráficos</string>
+    <string name="name_estilos">Estilos y plantillas</string>
+    <string name="name_ortografia">Ortografía y comentarios</string>
+    <string name="name_imprimir">Como imprimir</string>
+
+    <string name="name_INTROO">Microsoft Word es un programa de procesamiento de texto que permite crear, editar y dar formato a documentos como cartas, informes o trabajos escolares.
+        Ofrece herramientas para cambiar el tipo, tamaño y color de la letra, aplicar negritas, cursivas o subrayados, así como alinear y justificar el texto. Además, permite insertar imágenes,
+        tablas y otros elementos para mejorar la presentación del documento.</string>
+
+    <string name="name_herramientas">Barra de herranientas</string>
+    <string name="name_Barra">Word tiene varias pestañas para realizar distintas tareas:\n
+Inicio: herramientas básicas (letra, tamaño, color, alineación, viñetas, estilos).\n
+Insertar: agrega imágenes, tablas, encabezados y pies de página.\n
+Diseño: cambia la apariencia (márgenes, orientación, fondo).\n
+Referencias: citas, índices y bibliografías.\n
+Revisar: ortografía, comentarios y control de cambios.\n
+Vista: ajusta cómo se muestra el documento (zoom, diseño, regla).
+    </string>
+
+    <string name="name_Guardar">Crear y guardar archivo</string>
+    <string name="name_Crear">Abre Microsoft Word.\n
+	En la pantalla de inicio, selecciona “Documento en blanco”.\n
+	Escribe el contenido que desees o vallas a crear.\n
+        Haz clic en la pestaña “Archivo” (ubicada en la esquina superior izquierda).\n
+Selecciona “Guardar como”.\n
+Elige la ubicación donde quieres guardar el
+Escribe un nombre para el documento.
+    </string>
+
+
+    <string name="name_Formato">Formato de texto</string>
+    <string name="name_textoo">El formato de texto mejora la apariencia de letras o palabras.\n
+Principales opciones:\n
+        Tipo de letra: cambia el estilo (Arial, Times New Roman).\n
+        Tamaño: ajusta el texto.\n
+        Negrita (N): resalta.\n
+        Cursiva (K): inclina letras.\n
+        Subrayado (S): línea debajo.\n
+        Color de fuente: cambia color.\n
+        Resaltado: color de fondo.\n
+        Mayúsculas/minúsculas: cambia el estilo de letras.
+    </string>
+
+    <string name="name_viñeta">Listas numeradas y viñetas</string>
+    <string name="name_numerada">Las listas numeradas ordenan elementos (pasos o instrucciones).\n
+Para crearlas en Word:\n
+Selecciona el texto.\n
+Ve a la pestaña Inicio.\n
+En Párrafo, haz clic en el ícono de numeración (1,2,3).
+    </string>
+    <string name="name_listavi">Las listas con viñetas no requieren orden (ideas o ejemplos).\n
+Para hacerlas:\n
+Selecciona el texto.\n
+Ve a Inicio.\n
+En Párrafo, elige el ícono de viñetas (•).
+    </string>
+
+    <string name="name_imp">Imprimir</string>
+    <string name="name_tecladoo">
+        Aprende a navegar y ejecutar acciones comunes en tu computadora de
+         forma más rápida y eficiente.\n
+        Estos atajos te permitirán ahorrar tiempo al realizar
+         tareas diarias sin necesidad de usar el Mouse</string>
+
+    <string name="name_zz">Ctrl + Z</string>
+    <string name="name_yy">Ctrl + Y</string>
+    <string name="name_rehacer">Rehacer</string>
+    <string name="name_Ff">Ctrl + F</string>
+    <string name="name_buscar">Buscar</string>
+    <string name="name_ppp">Ctrl + P</string>
+    <string name="name_ss">Ctrl + S</string>
+
+    <string name="name_exploran">Exploran la potencia de la tecla Windows en combinación con otras
+        teclas para acceder directamente a funciones del sistema. Abrir aplicaciones y
+         gestionar tu escritorio Además, optimiza tu flujo de trabajo con estos comandos
+         específicos.
+    </string>
+
+
+    <string name="name_WINn">Win</string>
+
+    <string name="name_ADMI">Domina el arte de organizar y manipular sus ventanas abiertas para maximizar tu productividad.
+        Aprende a redimensionar, mover, minimizar y maximizar ventanas de manera eficiente para un espacio de trabajo ordenado.
+    </string>
+    <string name="name_sistemaa">Conoce los atajos que te permite controlar aspectos fundamentales
+         de tu sistema operativo desde la gestión de tareas hasta el acceso a configuraciones importantes.
+          Estos comandos te darán el mayor control sobre tu PC.
+    </string>
+
+    <string name="name_pieP">El pie de página es el espacio inferior de cada página donde se coloca información repetida o complementaria.\n
+Para insertar uno:\n
+Ve a Insertar.\n
+Clic en Pie de página.\n
+Elige un diseño y escribe el texto.\n
+Cierra con Cerrar encabezado y pie de página.
+    </string>
+
+    <string name="name_numeracionW">La numeración de páginas permite organizar y ubicar páginas fácilmente.\n
+Para agregar números de página:\n
+Abre Insertar.\n
+Clic en Número de página.\n
+Elige la ubicación: parte superior, parte inferior o márgenes laterales.
+    </string>
+
+    <string name="name_imagenes">Imágenes: sirven para ilustrar el documento.\n
+        Para insertarlas:\n
+        Ve a Insertar.\n
+        Clic en Imágenes.\n
+        Elige Este dispositivo o Imágenes en línea.\n
+        Selecciona la imagen y presiona Insertar.\n
+        Puedes moverla o cambiar su tamaño.
+        Gráficas: representan datos numéricos visualmente.\n
+        Para insertarlas:\n
+        Abre Insertar.\n
+        Clic en Gráfico.\n
+        Elige el tipo (columna, barra, línea, circular, etc.).\n
+        Edita los datos en la hoja de Excel que aparece.\n
+        Cierra la hoja para actualizar el gráfico en Word.
+    </string>
+
+
+
+    <string name="name_estilo">Los estilos son conjuntos predefinidos de formato que se aplican al texto para mantener una apariencia formal en el documento.\n
+       Cómo aplicar un estilo:\n
+       Selecciona el texto.\n
+       Ve a la pestaña “Inicio”.\n
+       En el grupo “Estilos”, elige el que desees aplicar.
+        Las plantillas son documentos prediseñados que sirven como base para crear nuevos archivos.\n
+       Cómo usar una plantilla:\n
+       Abre Microsoft Word.\n
+       En la pantalla principal, selecciona “Nuevo”.\n
+       Busca una plantilla por nombre (por ejemplo, “currículum”).
+   </string>
+
+
+
+    <string name="name_Ortogra">Microsoft Word incluye una herramienta que revisa automáticamente la ortografía y
+        gramática del texto para ayudar a corregir errores y mejorar la redacción.\n
+        Cómo usarla:\n
+        Ve a la pestaña “Revisar”.\n
+        Haz clic en “Ortografía y gramática”.\n
+        Word mostrará los errores detectados y sugerirá correcciones.\n
+        Puedes elegir “Cambiar”, “Omitir”.
+        Los comentarios sirven para añadir observaciones o sugerencias sin modificar el texto original.\n
+        Cómo insertar un comentario:\n
+        Selecciona el texto o parte del documento donde quieres hacer la observación.\n
+	    Ve a la pestaña “Revisar”.\n
+        Haz clic en “Nuevo comentario”.
+    </string>
+
+
+
+    <string name="name_impri">Cómo imprimir un documento en Word:\n
+Abre el documento que deseas imprimir.\n
+Haz clic en la pestaña “Archivo” (esquina superior izquierda).\n
+Selecciona la opción “Imprimir”.\n
+Se abrirá la vista previa de impresión, donde puedes revisar cómo se verá el documento en papel.
+    </string>
+
+    <string name="name_comoImprmir">Elige la impresora que vas a usar.\n
+Configura las opciones de impresión, como:\n
+o	Número de copias.\n
+o	Tamaño de papel.\n
+Cuando todo esté listo, haz clic en el botón “Imprimir”.
+</string>
+
+    <string name="name_IntroduccionP">Introducción  a Power Point</string>
+    <string name="name_Herra">Barra de herramientas</string>
+    <string name="name_Diseño">Diseño de diapositivas</string>
+    <string name="name_Contenido">Contenido multimedia</string>
+    <string name="name_Presentacion">Presentación interativa</string>
+    <string name="name_funciones">Funciones avanzadas</string>
+    <string name="name_Animaciones">Transiciones y animaciones</string>
+
+
+    <string name="name_introP">PowerPoint es un programa de presentación desarrollado por Microsoft.
+        Es ampliamente utilizado para crear presentaciones visuales que combinan texto, gráficos, imágenes y
+        elementos multimedia
+    </string>
+
+    <string name="name_BARRAP">Las barras de herramientas en PowerPoint proporcionan acceso rápido a funciones
+        esenciales como guardar, abrir, copiar, pegar, y formatear texto. La cinta de opciones organiza las herramientas
+        en pestañas lógicas como "Inicio", "Insertar", "Diseño", etc.</string>
+
+
+    <string name="name_DiseñoP">El diseño de diapositivas se refiere a la estructura y maquetación de cada diapositiva en una presentación.
+        Incluye la selección de temas, fondos, fuentes y la disposición de los elementos. PowerPoint ofrece plantillas predefinidas y opciones
+        de personalización.
+    </string>
+
+    <string name="name_ContenidoM">El contenido multimedia en PowerPoint se refiere a la integración de elementos como
+        imágenes, audio, video y animaciones en las diapositivas. Estos elementos enriquecen la presentación, haciéndola
+        más atractiva y efectiva para la audiencia.
+    </string>
+
+    <string name="name_PresentacionI">Una presentación interactiva permite la participación activa de la audiencia.
+        Esto puede incluir el uso de hipervínculos, botones de acción, cuestionarios integrados y la navegación no lineal
+        a través de la presentación.
+    </string>
+
+    <string name="name_funcionesP">Las funciones avanzadas de PowerPoint incluyen la creación de macros, la personalización de animaciones,
+        la integración con otras aplicaciones de Microsoft Office y el uso de complementos para extender la funcionalidad del programa.
+    </string>
+
+    <string name="name_transiciones">Las transiciones y animaciones son efectos visuales que se aplican a las diapositivas y a los elementos dentro
+        de ellas para mejorar el flujo y la apariencia de la presentación. Las transiciones controlan cómo una diapositiva cambia a la siguiente, mientras que las
+        animaciones controlan cómo aparecen y se mueven los objetos en una diapositiva.
+    </string>
+
+    <string name="name_MenuE">Menu Excel</string>
+
+    <string name="name_IntroduccionE">Introducción a Excel</string>
+    <string name="name_Funciones">Funciones esenciales</string>
+    <string name="name_Analisis">Análisis de datos</string>
+    <string name="name_FuncionesA">Funciones avanzadas</string>
+
+    <string name="name_introE">Microsoft Excel es una hoja de cálculo de Microsoft Office usada para organizar,
+        analizar y visualizar datos. Trabaja con filas y columnas, cuyas intersecciones son celdas donde se ingresan
+        números, texto, fórmulas y funciones. Se usa en empresas, escuelas y tareas personales por su capacidad para hacer
+        cálculos, crear gráficos, automatizar procesos y manejar mucha información.
+    </string>
+
+    <string name="name_siguiente">Siguiente</string>
+    <string name="name_Caracteristicas">Características principales</string>
+
+    <string name="name_estructura">Excel organiza su trabajo en libros compuestos por varias hojas. Tiene una interfaz
+        con pestañas que agrupan herramientas. Ofrece gran capacidad de cálculo, gráficos y tablas dinámicas para visualizar
+        datos, compatibilidad con distintos formatos y la opción de personalizar completamente el diseño de las hojas.
+    </string>
+
+    <string name="name_comunE">Usos comunes de excel</string>
+    <string name="name_UsoE">Elaboración de presupuestos y balances financieros.
+    Creación de listas de asistencia, inventarios o reportes.
+	Análisis estadístico y seguimiento de proyectos.
+	Control de ventas, gastos o productividad.
+	Visualización de tendencias mediante gráficos.
+    </string>
+
+    <string name="name_esenciales">Excel cuenta con una amplia gama de funciones esenciales que son la base del
+        trabajo cotidiano. Estas herramientas permiten ahorrar tiempo, automatizar cálculos y organizar la información.\n
+        de forma eficiente.
+    </string>
+
+    <string name="name_funcionesBa">Funciones básicas de Excel</string>
+    <string name="name_Basica">1. SUMA() 	– 	Suma 	un 	rango 	de 	celdas.\n
+Ejemplo: =SUMA(A1:A10).\n
+2.	PROMEDIO() 	– 	Calcula 	el 	promedio 	de 	un 	rango.\n
+Ejemplo: =PROMEDIO(B1:B10).\n
+3.	MAX() 	/ 	MIN() 	– 	Devuelven 	el 	valor 	máximo 	o 	mínimo.\n
+Ejemplo: =MAX(C1:C10).\n
+4.	CONTAR() / CONTARA() – Cuenta celdas con números o con cualquier dato. Ejemplo: =CONTAR(A1:A20).\n
+5.	SI() – Realiza comparaciones lógicas y devuelve un resultado según la condición.
+Ejemplo: =SI(A1>100,"Alta","Baja")
+</string>
+
+    <string name="name_FuncionTex">
+        •	CONCATENAR() / CONCAT() / TEXTOUNIR() – Unen varios textos.\n
+•	IZQUIERDA(), DERECHA(), LARGO(), MAYUSC() – Manipulan textos y caracteres.\n
+•	BUSCAR(), HALLAR() – Localizan texto dentro de otro texto.\n
+        •	HOY() – Muestra la fecha actual.\n
+•	AHORA() – Muestra la fecha y hora actual.\n
+•	DÍA(), MES(), AÑO() – Extraen partes de una fecha.\n
+
+    </string>
+
+    <string name="name_Texto">Funciones de texto, fecha y hora </string>
+    <string name="name_FormatoC">Formato de celdas</string>
+
+    <string name="name_Celadas">Permite cambiar el tipo de dato (número, moneda, porcentaje, fecha, texto, etc.),
+        aplicar colores, bordes, alineación y tipografía para mejorar la presentación de la información.
+    </string>
+
+    <string name="name_filtrar">Ordenar y filtrar</string>
+    <string name="name_AnalisisDa">Análisis de datos en excel</string>
+    <string name="name_Datos">Una de las fortalezas de Excel es su capacidad para realizar análisis de datos,
+        desde cálculos simples hasta evaluaciones estadísticas y financieras complejas.
+    </string>
+
+    <string name="name_tablas">Tablas dinámicas </string>
+    <string name="name_dinamicas">Las tablas dinámicas son herramientas poderosas que permiten resumir,
+        agrupar y analizar grandes volúmenes de información.\n
+Con ellas puedes:\n
+•	Agrupar datos por categorías.\n
+•	Calcular sumas, promedios o porcentajes.\n
+•	Crear reportes interactivos sin alterar los datos originales.\n
+Ejemplo: Analizar ventas por región, producto o mes con unos pocos clics.
+    </string>
+
+    <string name="name_Graficos">Gráficos y visualizaciones </string>
+    <string name="name_visualizacion">Excel ofrece una gran variedad de gráficos (de barras, líneas, pastel,
+        dispersión, radar, etc.) para representar los datos visualmente. También incluye segmentaciones y líneas de
+        tiempo que permiten interactuar con los reportes.
+    </string>
+
+    <string name="name_HIPOte">Análisis de hipótesis y herramientas de simulación </string>
+    <string name="name_simulacion">Incluye funciones para proyecciones y pronósticos, como:\n
+•	Buscar objetivo: determina qué valor debe tener una celda para lograr un resultado específico.\n
+•	Administrador de escenarios: permite comparar diferentes escenarios de valores.\n
+•	Tabla de datos: analiza el impacto de una o dos variables sobre un resultado.\n
+    Estas herramientas se usan en finanzas, planeación y toma de decisiones.
+    </string>
+    <string name="name_finaciero">Excel posee funciones como:\n
+• 	DESVEST(), VAR(), MEDIA(), MEDIANA() – para análisis estadístico.\n
+• 	TIR(), VAN(), PAGO(), NPER() – para cálculos financieros.\n
+Además, mediante complementos como Análisis de datos (Data Analysis ToolPak), se pueden realizar regresiones, histogramas, pruebas t, análisis de correlación y más.
+
+    </string>
+
+    <string name="name_estadistico">Análisis estadístico y financiero </string>
+
+    <string name="name_referencia">Funciones de búsqueda y referencia </string>
+    <string name="name_busqueda">
+        •	BUSCARV() / VLOOKUP(): busca un valor en la primera columna de una tabla y devuelve un dato asociado.\n
+•	BUSCARX() / XLOOKUP(): versión moderna y más flexible de BUSCARV.\n
+•	INDICE() + COINCIDIR(): combinación muy potente para localizar datos con precisión.\n
+•	DESREF(): devuelve una referencia desplazada desde una celda o rango determinado.
+    </string>
+
+    <string name="name_logica">Funciones lógicas combinadas </string>
+    <string name="name_combinada" translatable="false">
+        Permiten crear fórmulas anidadas con condiciones múltiples, por ejemplo:\n
+        =SI(Y(A1>50, 	B1"menor"100),"Válido","No 	válido").\n
+        Estas fórmulas se usan en evaluaciones, clasificaciones o control de criterios.
+   </string>
+
+    <string name="name_datos">Funciones de base de datos y estadísticas </string>
+    <string name="name_base">
+        Excel puede comportarse como una mini base de datos, utilizando funciones como:\n
+• BDSUMA(), BDPROMEDIO(), BDCONTAR(), que aplican criterios sobre rangos de datos estructurados.\n
+También hay funciones estadísticas como K.ESIMO.MAYOR(), FRECUENCIA(), DISTR.NORM.EST(), entre muchas otras.
+    </string>
+
+    <string name="name_validacion">Validación y protección de datos </string>
+    <string name="name_proteccion">
+        Permite restringir la entrada de valores mediante reglas (por ejemplo, solo números entre 1 y 100),
+        proteger celdas con contraseñas, y evitar modificaciones no deseadas en los libros.
+    </string>
+
+    <string name="name_Video">Ver video </string>
+
 
 </resources>
+
+
+

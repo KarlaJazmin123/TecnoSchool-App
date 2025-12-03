@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu_Word"
+    android:background="@drawable/crema">
+
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:text="@string/name_Word"
+        android:textColor="@color/AZUL"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <Button
+        android:id="@+id/Introduccion"
+        android:layout_width="155dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="32dp"
+        android:backgroundTint="@color/AZUL"
+        android:text="@string/name_Intro"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.285"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/imprimir"
+        android:layout_width="155dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="212dp"
+        android:backgroundTint="@color/AZUL"
+        android:text="@string/name_imprimir"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.835"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/ortografia"
+        android:layout_width="155dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="32dp"
+        android:backgroundTint="@color/AZUL"
+        android:text="@string/name_ortografia"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.835"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/estilos"
+        android:layout_width="155dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="212dp"
+        android:backgroundTint="@color/AZUL"
+        android:text="@string/name_estilos"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.706"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/btninsertar"
+        android:layout_width="155dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="28dp"
+        android:backgroundTint="@color/AZUL"
+        android:text="@string/name_insertar"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.696"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/pagina"
+        android:layout_width="155dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="215dp"
+        android:backgroundTint="@color/AZUL"
+        android:text="@string/name_pies"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585"
+        android:textSize="15sp"/>
+
+
+    <Button
+        android:id="@+id/listas"
+        android:layout_width="155dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="28dp"
+        android:backgroundTint="@color/AZUL"
+        android:text="@string/name_listas"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.555"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/archivo"
+        android:layout_width="155dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="28dp"
+        android:backgroundTint="@color/AZUL"
+        android:text="@string/name_archivo"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.426"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/barraW"
+        android:layout_width="155dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="204dp"
+        android:backgroundTint="@color/AZUL"
+        android:text="@string/name_herra"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.322"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/formato"
+        android:layout_width="155dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="204dp"
+        android:backgroundTint="@color/AZUL"
+        android:text="@string/name_texto"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.464"
+        android:textSize="15sp"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="122dp"
+        android:layout_height="98dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="Word.json"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_loop="true" />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="284dp"
+        android:text="@string/name_Regresar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
